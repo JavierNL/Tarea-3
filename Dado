@@ -1,0 +1,67 @@
+function setup() {
+createCanvas(400, 400);
+background(0);
+}
+function draw() {
+var num;
+num=int(random(1,7));
+if(mouseIsPressed){
+if(num==1){
+uno();
+}
+if(num==2){
+dos();
+}
+if(num==3){
+tres();
+}
+if(num==4){
+cuatro();
+}
+if(num==5){
+cinco();
+}
+if(num==6){
+seis();
+}
+}
+}
+function uno (){
+rect(150,150,100,100);
+ellipse (200,200,10,10);
+}
+function dos (){
+rect(150,150,100,100);
+ellipse (175,175,10,10);
+ellipse (225,225,10,10);
+}
+function tres (){
+rect(150,150,100,100);
+ellipse (175,175,10,10);
+ellipse (200,200,10,10);
+ellipse (225,225,10,10);
+}
+function cuatro (){
+rect(150,150,100,100);
+ellipse (175,175,10,10);
+ellipse (175,225,10,10);
+ellipse (225,175,10,10);
+ellipse (225,225,10,10);
+}
+function cinco (){
+rect(150,150,100,100);
+ellipse (175,175,10,10);
+ellipse (175,225,10,10);
+ellipse (225,175,10,10);
+ellipse (225,225,10,10);
+ellipse (200,200,10,10);
+}
+function seis (){
+rect(150,150,100,100);
+ellipse (175,175,10,10);
+ellipse (175,225,10,10);
+ellipse (225,175,10,10);
+ellipse (225,225,10,10);
+ellipse (200,175,10,10);
+ellipse (200,225,10,10);
+}
